@@ -22,8 +22,8 @@ __二元操作符__
 | a / b | a.div(b) |
 | a % b | a.mod(b) |
 | a..b | a.rangeTo(b) |
-| a in b | a.contains(b) |
-| a !in b | !a.contains(b) |
+| a in b | b.contains(a) |
+| a !in b | !b.contains(a) |
 | a += b | a.plusAssign(b) |
 | a -= b | a.minusAssign(b) |
 | a *= b | a.timesAssign(b) |
